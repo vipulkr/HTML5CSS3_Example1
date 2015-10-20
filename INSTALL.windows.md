@@ -2,10 +2,10 @@
 
 ## Vagrant Installation ##
 
-**note: All installers are available on the file server.**
+**note: All installers are available on the file server @ http://172.23.238.13/software/.**
 
 1. Make sure VTx is enabled on your computer.
-1. Install virtualbox.
+1. Install virtualbox version 4.3.x.
 1. Install Vagrant.
 1. Install git bash.
 
