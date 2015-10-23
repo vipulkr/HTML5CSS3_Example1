@@ -17,7 +17,7 @@ class nodejs {
   # Install node as recomended by nodejs.org
   exec { 'run update script':
     command => '/usr/bin/curl --silent --location https://deb.nodesource.com/setup_0.12 | /bin/bash -',
-    require => File['/etc/apt/sources.list'],
+    # require => File['/etc/apt/sources.list'],
   }
   package { 'nodejs':
     ensure  => installed,
