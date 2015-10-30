@@ -1,0 +1,112 @@
+header{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+header ul{
+  float: right;
+  margin-top: 25px;
+}
+
+.nav li{
+  text-transform: uppercase;
+  display: inline;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.nav li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+.nav li a:hover, .selected{
+  color: black;
+}
+
+header h1{
+  float: left;
+  text-indent: -9999px;
+  background-image: url("../img/logo.jpg");
+  background-repeat: no-repeat;
+  width: 244px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.hero{
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+    margin-top: 80px;
+  width: 940px;
+  height: 450px;
+  margin-bottom: 20px;
+}
+
+.hero  h1{
+  text-align: center;
+  margin-top: 80px;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.hero  h2{
+  text-align: center;
+  margin-top: 60px;
+  color: yellow;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.button {
+    text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.main .button:hover{
+  background-color: green;
+  color:white;
+}
+
+.sitename{
+  color: red;
+}
+
+.web_insight, .statistics{
+  margin-top: 40px;
+}
+
+.web_insight_content h2, .statistics h2{
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+}
+
+.statistics_graph, .web_insight_logo{
+  margin-top: 60px;
+}
+.statistics_graph{
+  margin-bottom: 50px;
+}
+
+.footer{
+  background-color: black !important;
+  color: white;
+}
+
+.footer li,{
+  margin: 0;
+}
+
+.footer a{
+  text-decoration: none;
+  color: grey;
+}
+
+.footer a:hover{
+  color: red;
+}

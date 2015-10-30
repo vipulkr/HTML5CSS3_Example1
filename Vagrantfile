@@ -11,7 +11,7 @@ Vagrant.configure(2) do |config|
 
   # Map the guest os port 8080 to host os port 8080
   config.vm.network "forwarded_port", guest: 8080, host: 8080
-
+  
   # use puppet to provision this virtual box`
   config.vm.provision :puppet do |puppet|
      puppet.manifests_path = "puppet/manifests"
